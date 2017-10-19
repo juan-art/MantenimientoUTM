@@ -1,0 +1,74 @@
+.figure{
+	text-align: center;
+	display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+}
+.margin_top_10px{
+    margin-top: 10px;
+}
+.login_wrapper{
+	margin-top: 0px !important;
+}
+
+.logo-escudo{
+	width: 100px;
+}
+
+body.login{
+	background: url('../img/fondo.png');
+}
+
+.btn-IngresarUsuario{
+    border: none;
+    background: #3a7999;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+	.error{
+        border-color: #e83e3e;
+        background-color: #f9e1de;
+    }
+    .error:active{
+        border-color: #e83e3e;
+    }
+    .error_span:after{
+        content: 'x';
+        color: #fff;
+        position: absolute;
+        top: 55px;
+        left: 300px;
+        font-size: 20px;
+        background: red;
+        border-radius: 50%;
+        width: 30px;
+        text-align: center;
+        height: 30px;
+    }
+
+@media (max-width: 670px) {
+    
+    .error_span:after{
+        left: 245px;
+    }
+    .btn-act{
+    left: 60%;
+    }
+    .btnCancelar{
+    left: 82%;
+    }
