@@ -135,7 +135,7 @@
         
 //click al boton Registrar servicio
 $("#btn_IngresarServicio").click(function(){
- /*if($('#programa').val()=="" && $('#presupuesto').val()=="" && $('#descripcion').val()==""){
+ if($('#programa').val()=="" && $('#presupuesto').val()=="" && $('#descripcion').val()==""){
              var animate_in = 'lightSpeedIn',
                 animate_out = 'bounceOut';
                 new PNotify({title: 'Alerta Faltan datos',text: 'Por favor! algunos campos estan vacios',
@@ -175,12 +175,10 @@ $("#btn_IngresarServicio").click(function(){
                              type: 'error',delay: 2500,
                              animate: {animate: true,in_class: animate_in,out_class: animate_out}
                 });
-            }else{  */
+            }else{  
 registrar_servicios();
- // }
+  }
 });
-
-
 
 // funcion para registar responsable estrategicos
 function registrar_servicios(){    

@@ -291,19 +291,7 @@ desired effect
         <li class="header">MENÚ</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="/home"><i class="fa fa-link"></i> <span>Home</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
-          </ul>
-        </li>
-
+        
         <!-- Menú mantenimiento-->
         <li class="treeview">
           <a href="#"><i class="fa fa-wrench"></i> <span>Mantenimiento</span>
@@ -312,8 +300,8 @@ desired effect
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Tipo de Mantenimiento</a></li>
-            <li><a href="/servicio">Tipo de Servicio</a></li>
+            <li><a href="/tipo_mantenimiento"><i class="fa fa-spinner"></i>Tipo de Mantenimiento</a></li>
+            <li><a href="/servicio"><i class="fa fa-spinner"></i>Tipo de Servicio</a></li>
           </ul>
         </li>
         <!-- Fin Menú mantenimiento-->

@@ -19,6 +19,11 @@ Route::resource('/servicio', 'ServicioController');
 Route::get('/lista_servicio','ServicioController@lista');
 //fin de tipo de servicio
 
+//Tipo de mantenimiento
+Route::resource('/tipo_mantenimiento', 'Tipo_MantenimientoController');
+Route::get('/lista_tipo_mantenimiento','Tipo_MantenimientoController@lista');
+//fin de tipo de mantenimiento
+
 Route::get('/home', 'AppController@index');
 
 Route::group(['middleware' => ['web']], function () {
